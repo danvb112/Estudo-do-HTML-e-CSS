@@ -1,0 +1,20 @@
+CSS
+
+- No arquivo CSS selecionando o cabeçalho especifico, podemos utilizar parâmetros para estilizar nossa
+página EX:
+
+h1 {
+    font-size: 60px;
+    background-color: rgb(120, 30, 60);
+    color: #FAFFFA;
+    text-align: center;
+    font-family: "Arial";
+}
+
+- o parâmetro "font-size" serve para determinar o tamanho da fonte em pixels
+- o parâmetro "background-color" serve para alterar a cor de fundo usando a configuração rgb(red, green,
+blue)
+- o parâmetro "color" serve para alterar a cor do texto usando uma configuração hexadecimal
+- o parâmetro "text-align" serve para determinar a centralidade do texto
+- o parâmetro "font-family" serve para determinar o tipo da fonte utilizada no texto
+

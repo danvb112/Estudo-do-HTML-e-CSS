@@ -1,0 +1,20 @@
+HTML
+
+- A tag <blockquote> serve para colocar citações dentro do HTML, junto com a tag <cite> que serve para
+colocar o autor da citação 
+
+- A tag <nav> e a tag <main> servem para adicionar semântica dentro do nossso HTML deixando o código 
+mais legível
+
+- A tag <ul> serve para criar uma lista de itens dentro do HTML, já organizando-os de forma especifica,
+cada item dever colocado dentro da tag <li> 
+
+- A tag <a> serve para adicionar um link a uma palavra ou frase especifica, o link deverá ser adicionado
+dentro do atributo href=" " e a palavra ou frase o qual o link irá se referir, depois do href
+
+- A tag <img> serve para adicionar imagens a pagina, possui dois atributos, sendo eles o "src" que serve
+para se colocar o nome do arquivo da imagem, e "alt" que serve para fazer uma descrição sobre o que a 
+imagem representa
+
+- A tag <footer> serve para criarmos um rodapé para o site
+
