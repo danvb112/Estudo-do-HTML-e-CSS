@@ -4,7 +4,8 @@ HTML
 colocar o autor da citação 
 
 - A tag <nav> e a tag <main> servem para adicionar semântica dentro do nossso HTML deixando o código 
-mais legível
+mais legível. A tag <nav> indica que uma determinada região da página contém links para navegar para
+outras partes do site
 
 - A tag <ul> serve para criar uma lista de itens dentro do HTML, já organizando-os de forma especifica,
 cada item dever colocado dentro da tag <li> 
@@ -17,4 +18,11 @@ para se colocar o nome do arquivo da imagem, e "alt" que serve para fazer uma de
 imagem representa
 
 - A tag <footer> serve para criarmos um rodapé para o site
+
+- A tag <article> serve para melhorar a semântica do nosso código representando um bloco único de con-
+teudo
+
+- A tag <time> e seu atributo datatime especifica a data num formato mais fácil do computador processar
+
+- 
 

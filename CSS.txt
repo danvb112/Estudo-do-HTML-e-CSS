@@ -12,9 +12,31 @@ h1 {
 }
 
 - o parâmetro "font-size" serve para determinar o tamanho da fonte em pixels
+
 - o parâmetro "background-color" serve para alterar a cor de fundo usando a configuração rgb(red, green,
 blue)
+
 - o parâmetro "color" serve para alterar a cor do texto usando uma configuração hexadecimal
+
 - o parâmetro "text-align" serve para determinar a centralidade do texto
+
 - o parâmetro "font-family" serve para determinar o tipo da fonte utilizada no texto
+
+- O parâmetro "text-decoration" coloca ou tira o sublinhado do texto podendo-se usar o "none" para não
+ter sublinhamento e "underline" para sublinhar
+
+- O parâmetro "padding" serve para ajustar os espaçamentos
+
+- O parâmetro "border serve para colocar uma borda no layout, tendo que ser especificado o tamanho, tipo
+e cor da borda EX:. border: 10px solid #C2CCCA
+
+- O parâmetro "width" serve para ajustar a largura da estrutura interna 
+
+- O parâmetro "margin" serve para controlar as margens externas da estrutura
+
+- Para indicar para o navegador que estamos querendo calcular as margens a partir das bordas, usamos o 
+parâmetro "box-sizing" que diz se queremos calcular a margem a partir do conteúdo (content-box) ou das
+bordas (border-box)
+
+
 
