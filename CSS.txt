@@ -32,11 +32,21 @@ e cor da borda EX:. border: 10px solid #C2CCCA
 
 - O parâmetro "width" serve para ajustar a largura da estrutura interna 
 
-- O parâmetro "margin" serve para controlar as margens externas da estrutura
+- O parâmetro "margin" serve para controlar as margens externas da estrutura, se utilizar o atributo
+"auto" a margem centraliza automaticamente
 
 - Para indicar para o navegador que estamos querendo calcular as margens a partir das bordas, usamos o 
 parâmetro "box-sizing" que diz se queremos calcular a margem a partir do conteúdo (content-box) ou das
 bordas (border-box)
+
+- O parâmetro "list-style-type" junto com a propriedade "none" tira as bolinhas na lista de links
+
+- O parâmetro "line-height" controla o espaço entre as linhas de texto
+
+- é possivel também desenhar bordas com cores diferentes utilizando o parâmetro " border-bottom-color"
+por exemplo.
+
+-
 
 
 

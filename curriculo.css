@@ -1,12 +1,12 @@
 main h1 {
     font-size: 60px;
-    background-color: blueviolet;
-    color: #FFD700;
+    background-color: #851944;
+    color: #FFF;
     text-align: center;
     font-family: "Open Sans Condensed", serif, sans-serif;
-    padding: 20px;
-    border: 20px solid black;
-    margin: 0%;
+    padding: 25px;
+    border-bottom: 20px solid black;
+    margin: 0;
     width: 400x;
 }
 
@@ -16,6 +16,13 @@ h2 {
     color: #DAA520;
     text-align: center;
     font-family: "Open Sans Condensed", serif, sans-serif; 
+    border: 5px solid black;
+    width: 250px;
+    box-sizing: border-box;
+    margin-left: 800px;
+
+
+
 }
 
 p {
@@ -25,20 +32,27 @@ p {
 }
 
 body {
-    background-color: aquamarine
+    background-color: #F2FFFC
 }
 
 footer {
     background-color: black;
-    color: antiquewhite 
+    color: antiquewhite;
+    padding: 20px
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
+
 }
 
 nav a{
     font-family:  "Open Sans Condensed", sans-serif;
     color: #851944;
+}
+
+ul {
+    list-style-type: none;
 }
