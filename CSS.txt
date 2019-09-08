@@ -46,7 +46,12 @@ bordas (border-box)
 - é possivel também desenhar bordas com cores diferentes utilizando o parâmetro " border-bottom-color"
 por exemplo.
 
+- O parâmetro "display" permite controlarmos o empilhamento ou posicionamento dos elementos na nossa 
+página sendo os atributos "block" para empilhar, "inline" para deixar na mesma linha. Mas o "inline"
+não permite controlar a altura do elemento, pra isso criaram o atributo "inline-block".
+
 -
+
 
 
 

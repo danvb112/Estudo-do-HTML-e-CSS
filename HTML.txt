@@ -24,5 +24,9 @@ teudo
 
 - A tag <time> e seu atributo datatime especifica a data num formato mais fácil do computador processar
 
+- A tag <aside> serve para conteúdos que complementam o conteúdo principal
+
+- é possivel colocar icones dentro de links utilizando a tag <img> dentro da tag <a>
+
 - 
 
