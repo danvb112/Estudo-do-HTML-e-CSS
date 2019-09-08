@@ -28,5 +28,11 @@ teudo
 
 - é possivel colocar icones dentro de links utilizando a tag <img> dentro da tag <a>
 
-- 
+- é possivel dar nome a qualquer tag usando o atributo "id" dentro das tags, isso é bom para poder esti-
+lizar as tags no CSS de forma mais especifica. Para utilizar o "id" no css, basta começar com "#" segui-
+do do nome do "id", ou seja, o caractere "#" é um seletor de "id". Porém, os ids não podem ser repetidos
+se tornando um nome único e recomendado a utilização para um caso de um elemento que se tenha a certeza
+de que não vai se repetir.
+
+-   
 
