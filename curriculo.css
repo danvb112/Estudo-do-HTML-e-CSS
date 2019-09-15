@@ -51,7 +51,11 @@ aside {
     
 }
 
-aside li{
+#foto_perfil{
+    width: 200px;
+}
+
+.icones-sociais li{
     display: inline-block;
 }
 

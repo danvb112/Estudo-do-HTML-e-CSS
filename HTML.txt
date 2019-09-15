@@ -34,5 +34,10 @@ do do nome do "id", ou seja, o caractere "#" é um seletor de "id". Porém, os ids
 se tornando um nome único e recomendado a utilização para um caso de um elemento que se tenha a certeza
 de que não vai se repetir.
 
--   
+- para o caso de repetir o mais indicado é usar classes nas tags, deixando o codigo mais flexivel, no
+CSS o seletor de classes é o ".". Classes são boas pois permitem reutilizar estilizações já concebidas
+em outras partes da página.
+
+- no HTML podemos dar mais de uma classe para um elemento: basta separar os nomes das classes por espa-
+ços. 
 
