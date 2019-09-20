@@ -8,8 +8,13 @@ main h1 {
     border-bottom: 20px solid black;
     margin: 0;
     width: 400x;
+    text-transform: uppercase;
 }
 
+main {
+    float: left;
+    width: 85%;
+}
 h2 {
     font-size: 30px;
     background-color: aqua;
@@ -40,7 +45,9 @@ body {
 footer {
     background-color: black;
     color: antiquewhite;
-    padding: 10px
+    padding: 5px;
+    clear: both;
+    margin: 0px;
 }
 
 
@@ -48,17 +55,34 @@ aside {
     background-color: #851944;
     color: #F2FFFC;
     text-align: center;
-    
+    float: right;
+    clear: right;
+    width: 15%;
+    width: 285px;
+    box-sizing: border-box;
+}
+aside p {
+    font-size: 20px;
+    line-height: 5px;
 }
 
 #foto_perfil{
-    width: 200px;
+    width: 285px;
+    float: right;
+
+}
+
+.icones-sociais a{
+    width: 48px;
+    height: 48px;
+    color: transparent;
+    display: block;
+    
 }
 
 .icones-sociais li{
     display: inline-block;
 }
-
 nav a{
     font-family:  "Open Sans Condensed", sans-serif;
     color: #F2FFFC;
@@ -72,5 +96,12 @@ nav h1{
 ul {
     list-style-type: none;
 
+}
+
+.github{
+    background-image: url(github-48.png)
+}
+.instagram{
+    background-image: url(instagram-48.png)
 }
 

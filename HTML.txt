@@ -23,6 +23,7 @@ imagem representa
 teudo
 
 - A tag <time> e seu atributo datatime especifica a data num formato mais fácil do computador processar
+Ex: <time datetime="2019-08-30">30 de Agosto de 2019</time>
 
 - A tag <aside> serve para conteúdos que complementam o conteúdo principal
 

@@ -50,7 +50,45 @@ por exemplo.
 página sendo os atributos "block" para empilhar, "inline" para deixar na mesma linha. Mas o "inline"
 não permite controlar a altura do elemento, pra isso criaram o atributo "inline-block".
 
--
+- Podemos agora, no nosso código, ter seletores diferentes para o mesmo elemento. Por exemplo o elemento
+"<div class=texto>" pode ser selecionado tanto pelo seletor div como pelo seletor .texto. Quando aconte-
+ce um conflito desse tipo, o navegador escohle o estilo declarado no seletor mais específico.
+
+- Como podemos colocar mais de uma classe em um elemento. é possível que haja conflito entre regras de-
+claradas nas duas classes. Por exemplo: <div class="destaque titulo-principal">. Se fizermos um elemento
+com ambas as classes, o navegador precisa decidir quais prorpiedades de cada classe uzar. O critério de
+desempate é qual das calsses aparece por ultimo no arquivo CSS.
+
+- o Parâmetro "text-transform" altera as letras do nosso texto, podendo usar a prorpriedade "uppercase"
+para deixar todas as letras em maiúsculas.
+
+- Sêmanticamente fica melhor colocar as imagens pelo CSS do que pelo HTML, utilizando o parâmetro "back-
+ground-image" e a propriedade "url" colocamos o nome do arquivo da imagem. Os links os quais as imagens
+se referem, ficam no HTML. Para um não ficar sobreposto ao outro, usamos uma técnica chamada image re-
+placement que consiste em usar o parâmetro "text-indent" junto com a quantidade de pixels. Esse parâme-
+tro ira deslocar a primeira linha do texto para direita se for positivo ou esquerda se for negativo, 
+permitindo que somente as imagens fiquem visíveis mas os links continuem clicáveis. Pra que todos os
+links não fiquem com a mesma imagem, é necessário que cada imagem vire uma classe no HTML e possa ser
+selecionada individualmente no CSS.
+
+- Existe outras formas de fazer um image replacement como por exemplo colocando o font-size: 0px ou um
+color: trasparent. O problema de se utilizar o text-indent com um valor muito grande é que gastará bas-
+tante memória para poder exibir a página, pois ele levará em consideração um valor muito grande para 
+fazer os cálculos, por outro lado, usar o font-size: 0px não é bem interpretado por todos os navegadores
+alguns simplismente ignoram uma declaração desse tipo, outros mesmo com o tramanho zerado, mostram o 
+texto numa fonte pequena.
+
+- O parâmetro float serve para fazer os elementos sairem do fluxo padrão de empilhamento, permitindo que
+eles flutuem na página, podendo ser usado as prorpiedades "left" e "right" para flutuarem a direita e 
+esquerda. Como o float faz com que o elemento saia do fluxo, o resto do conteúdo da página sobe. Assim, 
+se outro float vem logo em seguida no fluxo, esse outro float acabará na mesma altura do primeiro float, 
+independente do lado em que ele vai ficar.
+
+- Junto do float existe um parâmetro chamdo clear que permite controlar até que ponto as coisas devem 
+ficar ao lado do float tendo parâmetros como "left", "right" e "both" para controlar os espaçamentos 
+dos floats à esquerda, direita ou ambos os lados
+
+- Todos os floats colocados em sequência e sem o clear formam uma linha. 
 
 
 
