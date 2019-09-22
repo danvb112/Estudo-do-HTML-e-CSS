@@ -5,7 +5,7 @@ main h1 {
     text-align: center;
     font-family: "Open Sans Condensed", serif, sans-serif;
     padding: 25px;
-    border-bottom: 20px solid black;
+    border-bottom: 10px solid black;
     margin: 0;
     width: 400x;
     text-transform: uppercase;
@@ -13,7 +13,7 @@ main h1 {
 
 main {
     float: left;
-    width: 85%;
+    width: 80%;
 }
 h2 {
     font-size: 30px;
@@ -24,7 +24,7 @@ h2 {
     border: 5px solid black;
     width: 250px;
     box-sizing: border-box;
-    margin-left: 800px;
+    margin-left: 650px;
 
 }
 
@@ -47,7 +47,9 @@ footer {
     color: antiquewhite;
     padding: 5px;
     clear: both;
-    margin: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 
@@ -57,9 +59,11 @@ aside {
     text-align: center;
     float: right;
     clear: right;
-    width: 15%;
-    width: 285px;
+    width: 300px;
+    width: 20%;
     box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
 aside p {
     font-size: 20px;
@@ -68,7 +72,11 @@ aside p {
 
 #foto_perfil{
     width: 285px;
+    width: 20%;
     float: right;
+    border-left: 10px solid black ;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
 
 }
 

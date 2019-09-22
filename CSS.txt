@@ -88,7 +88,33 @@ independente do lado em que ele vai ficar.
 ficar ao lado do float tendo parâmetros como "left", "right" e "both" para controlar os espaçamentos 
 dos floats à esquerda, direita ou ambos os lados
 
-- Todos os floats colocados em sequência e sem o clear formam uma linha. 
+- Todos os floats colocados em sequência e sem o clear formam uma linha.
+
+- O parâmetro float no entanto, nos permite posicionar os elementos de forma limitada, Para podermos po-
+sicionar elementos com controle total, precisamos da propriedade "position" e seus parâmetros "top",
+"left", "bottom" e "right". O comportamento dessas quatro últimas propriedades muda bastante de acordo
+com o valor passado à propriedade position.
+
+- Quando passamos o valor "relative" para a propriedade "position", conseguimos mudar a posição do ele-
+mento de acordo com a posição original dele. Por exemplo, deslocar a foto de sua posição original para
+tentar aumenta-la depois.
+
+- Para conseguir esse efeito, usamos o position: relative em conjunto com top e right, inserindo espaço
+no topo e na direita:
+
+img {
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
+
+- Quando falamos de posicionar elementos na página independentemente od resto do conteúdo, estamos fa-
+lando de umsar o calor "absolute" da propriedade "position". Com ele, podemos colocar um elemento onde
+quisermos na página.
+
+- Outro valor da propriedade "position" é o "fixed". Ele nos permite deixar um elemento no lugar que 
+quisermos da janela usando, também, as propriedades "top", "left", "bottom" e "right" para determinar
+a distância do elemento para esses quatro cantos da janela.
 
 
 
