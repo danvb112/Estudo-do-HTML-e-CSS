@@ -1,0 +1,35 @@
+.titulo_principal{
+    text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+    position: relative;
+    left: 200px;
+}
+
+.bmw {
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+.ibm {
+    position: relative;
+    left: -150px;
+    top: 300px;
+}
+
+.uol {
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+}
